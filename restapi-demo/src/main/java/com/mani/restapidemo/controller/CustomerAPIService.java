@@ -19,7 +19,7 @@ public class CustomerAPIService {
 	@GetMapping("{custId}")
 	public Customer getCustomerDetails(String custId) {
 		return customer;
-//				new Customer("C1","Vendor 1","Address one","xxxxx");
+
 		
 	}
 	
