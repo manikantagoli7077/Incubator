@@ -37,7 +37,7 @@ public class CustomerAPIService {
 		return "Customer updated Successfully";
 	}
 	
-	@DeleteMapping("{vendorId}")
+	@DeleteMapping("{custId}")
 	public String deleteCustomerDetails(@RequestBody Customer customer)
 	{
 		this.customer=null;
